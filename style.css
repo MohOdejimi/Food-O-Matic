@@ -317,6 +317,86 @@ header nav ul li a:hover {
     padding: .5rem 2rem;
     border-radius: 7px;
   }
+  
+  /* Newsletter */
+  .newsletter {
+    padding: 2rem;
+  }
+  .newsletter-wrap {
+    padding: 1rem;
+    background: palegreen;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+  .newsletter-wrap p {
+    font-family: raleway;
+    margin-top: -.5rem;
+  }
+  .newsletter-wrap h3 {
+    font-family: oxygen;
+    margin-top: 0rem;
+  }
+  .newsletter-mail {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    font-family: poppins;
+  }
+  #email {
+    padding: .8rem;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    outline: none;
+    border: none;
+  }
+  #btn {
+    padding: .5rem;
+    outline: none;
+    border: none;
+    background-color: #26643b;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    color: white;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 2rem;
+    padding: 2rem;
+    background: #d6e5d8;
+  }
+  footer a {
+    color: black;
+    text-decoration: none;
+  }
+  footer p {
+    font-family: Raleway;
+  }
+  footer h3 {
+    font-family: oxygen;
+  }
+  .main h3::first-child  {
+    font-size: 1.3rem;
+  }
+  .footer-icons {
+    display: flex;
+    gap: .5rem;
+  }
+  .footer-icons a {
+    background: whitesmoke;
+    color: darkgrey;
+    padding: .5rem;
+    font-size: 1.2rem;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:  .5px solid lightgreen;
+  }
+  
+  
+  .copyright {
+    text-align: center;
+  }
  @media all and (min-width: 800px) {
    .openmenu, .closemenu {
      display: none;
@@ -357,6 +437,7 @@ header nav ul li a:hover {
      text-align: left;
      line-height: 1.5rem;
      max-width: 20rem;
+     font-size: 1.2rem;
    }
    .hero-btn {
      justify-content: flex-start;
@@ -375,25 +456,24 @@ header nav ul li a:hover {
    
    /* Special dishes */
    .special-dishes {
-     display: flex;
-     justify-content: space-between;
-     flex-wrap: nowrap;
-     gap: .8rem;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
      font-size: 1rem;
    }
    .dish {
      width: 10rem;
-     margin-left: 3rem;
+     margin-left: 4.5rem;
    }
    .dish-style {
-     width: 15rem;
-     height: 20rem;
+     width: 18rem;
+     height: 22rem;
    }
    .dish-style p {
      font-size: 1rem;
+     line-height: 1.5;
    }
    .summary {
-     margin-top: 4rem;
+     margin-top: 5rem;
    }
    .summary p {
      font-size: 1rem;
@@ -475,5 +555,36 @@ header nav ul li a:hover {
    }
    .our-offer-items h4 {
      font-size: 1rem;
+   }
+   /* Newsletter */
+   .newsletter-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 2rem;
+   }
+   .newsletter-mail {
+     display: grid;
+     grid-template-columns: 3fr 1fr;
+     align-self: center;
+   }
+   .newsletter-info h3 {
+     font-size: 1.3rem;
+   }
+   .newsletter-info p {
+     font-size: 1.2rem;
+     width: 90%;
+   }
+   #email {
+     padding: 1rem;
+   }
+   
+   /* Footer */
+   .footer-wrap {
+     display: grid;
+     grid-template-columns: 2fr 1fr 1fr 1fr;
+   }
+   .main p {
+     
    }
  }
