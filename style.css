@@ -161,7 +161,7 @@ header nav ul li a:hover {
     background: #d6e5d8;
     border-radius: 5px;
     width: 8.8rem;
-    height: 18rem;
+    height: 16rem;
     padding: .5rem;
   }
   .dish-style h3 {
@@ -172,7 +172,7 @@ header nav ul li a:hover {
   }
   .dish-style p {
     font-family: plus jakarta sans;
-    line-height: 1;
+    line-height: 1.5;
     font-size: .6rem;
   }
   .summary p {
