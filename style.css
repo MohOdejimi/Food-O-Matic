@@ -85,7 +85,7 @@ header nav ul li a:hover {
    flex-direction: column-reverse;
  }
   .hero-section img {
-    width: 18rem;
+    width: 19rem;
   }
   .hero-section h3 {
     font-family: Plus Jakarta Sans;
@@ -125,7 +125,7 @@ header nav ul li a:hover {
     font-family: plus jakarta sans;
   }
   .wrapper div {
-    width: 9rem;
+    width: 9.5rem;
     height: 7rem;
     padding-top: .5rem;
     font-size: .8rem;
