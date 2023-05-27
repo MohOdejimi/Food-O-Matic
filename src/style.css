@@ -3,7 +3,7 @@ body {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-  box-sizing: box-sizing;
+  box-sizing: border-box;
 }
 header {
   padding: 1% 2rem;
@@ -583,6 +583,9 @@ header nav ul li a:hover {
    .footer-wrap {
      display: grid;
      grid-template-columns: 2fr 1fr 1fr 1fr;
+   }
+   .main p {
+     margin-right: 1rem;
    }
    
  }
