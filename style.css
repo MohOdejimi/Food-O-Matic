@@ -41,6 +41,9 @@ header h3 a {
   transition: top 1s ease;
   display: none;
 }
+.mainmenu li {
+  font-weight: 600;
+}
 .mainmenu li a{
   list-style-type: none;
   text-decoration: none;

@@ -1,0 +1,56 @@
+#info-page {
+  margin-top: 4rem;
+}
+.form-head {
+  font-family: oxygen;
+  padding: 2rem;
+  font-size: 1.2rem;
+  margin-bottom: -2rem;
+  margin-top: 4rem;
+}
+form h4 {
+  font-family: oxygen;
+}
+input {
+  border: none;
+  outline: none;
+  background-color: #d6e5d8;
+  border-radius: 5px;
+  width: 90%;
+  padding: 1rem;
+}
+form {
+  padding: 2rem;
+}
+textarea {
+  height: 10rem;
+  line-height: normal;
+  border: none;
+  outline: none;
+  background: #d6e5d8;
+  width: 100%;
+  border-radius: 5px;
+}
+button {
+  background: #26643b;
+  border-radius: 5px;
+  color: white;
+  padding: .4rem .8rem;
+  font-family: poppins;
+  margin-top: 1rem;
+  outline: none;
+  border: none;
+  width: 30%;
+}
+@media (min-width: 800px) {
+  input {
+    width: 97%;
+  }
+  textarea {
+    height: 27rem;
+    width: 100%;
+  }
+  button {
+    width: 15%;
+  }
+}
